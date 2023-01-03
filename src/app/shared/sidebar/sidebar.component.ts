@@ -47,11 +47,9 @@ roles:any[];
     public auth:AuthService,
     ) { 
     this.menuItems=sidebarService.menu;
-    this.menuItemsx=sidebarService.menux;
+  
         this.menuItemsReport=sidebarService.menuReport;
-    this.menuItemsLoans=sidebarService.menuLoans;
    
-    
   }
 
  

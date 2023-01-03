@@ -12,12 +12,11 @@ export class SidebarService {
   menu: any[] = [{
 
     submenu: [
-      { titulo: 'Laptops', url: 'dashboard',icono:'nav-icon fa-solid fa-laptop',user:'ROLE_USER' },
-      { titulo: 'Proyectores', url: 'users',icono:'nav-icon fa-solid fa-land-mine-on', user:'ROLE_ADMIN'},
-      { titulo: 'Impresoras', url: 'register',icono:'fa-solid fa-print nav-icon' ,user:'ROLE_USER'},
-      { titulo: 'Tablets', url: 'users',icono:'nav-icon fa-solid fa-tablet-screen-button', user:'ROLE_ADMIN'},
-      { titulo: 'Televisores', url: 'persons',icono:'nav-icon fa-solid fa-tv', user:'ROLE_ADMIN'},
-      { titulo: 'Telefonos', url: 'register',icono:'fa-solid fa-phone-volume nav-icon' ,user:'ROLE_USER'},
+      { titulo: 'Prestamos', url: 'cpu',icono:'nav-icon fa-solid fa-right-left',user:'ROLE_USER' },
+      { titulo: 'Devoluciones', url: 'users',icono:'nav-icon fa-solid fa-arrow-rotate-left', user:'ROLE_ADMIN'},
+      { titulo: 'Libros', url: 'register',icono:'nav-icon fa-solid fa-solid fa-book' ,user:'ROLE_USER'},
+      { titulo: 'Usuarios', url: 'users',icono:'nav-icon fa-solid fa-solid fa-users', user:'ROLE_ADMIN'},
+    
 
 
       
@@ -27,24 +26,6 @@ export class SidebarService {
 
   }];
 
-  menux: any[] = [{
-
-    titulo: 'Computadoras',
-    icono: '"nav-icon fa-solid fa-computer',
-    user:'ROLE_ADMIN',
-    submenux: [
-      { titulo: 'Cpu', url: 'cpu' },
-      { titulo: 'Monitores', url: 'reportperson' },
-      { titulo: 'Teclado', url: 'reportcarsbyperson' },
-      { titulo: 'Mouses', url: 'reportregister' },
-    ]
-
-  }];
-
-
-  
-
- 
 
   menuReport: any[] = [{
 
@@ -57,21 +38,6 @@ export class SidebarService {
       ]
 
   }];
-
-  menuLoans: any[] = [{
-
-    titulo: 'Prestamos',
-    icono: '"nav-icon fa-solid fa-right-left',
-    user:'ROLE_ADMIN',
-    submenux: [
-      { titulo: 'Pendientes', url: 'reportcars' },
-      { titulo: 'Historial', url: 'reportperson' },
-      ]
-
-  }];
-    
-
-  
 
   constructor(
     

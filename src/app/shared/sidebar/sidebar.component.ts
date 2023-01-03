@@ -48,10 +48,7 @@ roles:any[];
     ) { 
     this.menuItems=sidebarService.menu;
     this.menuItemsx=sidebarService.menux;
-    this.menuItemsCamara=sidebarService.menucam;
-    this.menuItemsRed=sidebarService.menured;
-    this.menuItemsOther=sidebarService.menuOther;
-    this.menuItemsReport=sidebarService.menuReport;
+        this.menuItemsReport=sidebarService.menuReport;
     this.menuItemsLoans=sidebarService.menuLoans;
    
     

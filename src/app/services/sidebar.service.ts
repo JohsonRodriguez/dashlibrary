@@ -41,43 +41,10 @@ export class SidebarService {
 
   }];
 
-  menucam: any[] = [{
 
-    titulo: 'Cámaras',
-    icono: '"nav-icon fa-solid fa-camera',
-    user:'ROLE_ADMIN',
-    submenux: [
-      { titulo: 'Cámara Web', url: 'reportcars' },
-      { titulo: 'Cámara Fotografica', url: 'reportperson' },
-      { titulo: 'Cámara Seguridad', url: 'reportcarsbyperson' },
-      ]
-
-  }];
   
-  menured: any[] = [{
 
-    titulo: 'Redes',
-    icono: '"nav-icon fa-solid fa-network-wired',
-    user:'ROLE_ADMIN',
-    submenux: [
-      { titulo: 'Access Point', url: 'reportcars' },
-      { titulo: 'Switch', url: 'reportperson' },
-      ]
-
-  }];
-
-  menuOther: any[] = [{
-
-    titulo: 'Otros',
-    icono: '"nav-icon fa-solid fa-mattress-pillow',
-    user:'ROLE_ADMIN',
-    submenux: [
-      { titulo: 'Controles', url: 'reportcars' },
-      { titulo: 'Auriculares', url: 'reportperson' },
-      { titulo: 'Extensiones', url: 'reportperson' },
-      ]
-
-  }];
+ 
 
   menuReport: any[] = [{
 

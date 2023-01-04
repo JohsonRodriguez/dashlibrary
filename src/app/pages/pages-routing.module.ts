@@ -28,6 +28,8 @@ import { NewrolComponent } from './user/newrol/newrol.component';
 import { CpuComponent } from './cpu/cpu/cpu.component';
 import { NewcpuComponent } from './cpu/newcpu/newcpu.component';
 import { EditcpuComponent } from './cpu/editcpu/editcpu.component';
+import { BorrowComponent } from './borrow/borrow.component';
+import { RequestComponent } from './request/request.component';
 
 
 
@@ -62,6 +64,8 @@ const routes: Routes = [
   {path:'cpu',component:CpuComponent},
   {path:'newcpu',component:NewcpuComponent},
   {path:'editcpu',component:EditcpuComponent},
+  {path:'borrow',component:BorrowComponent},
+  {path:'request',component:RequestComponent},
   
   
   

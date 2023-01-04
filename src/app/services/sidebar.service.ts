@@ -12,8 +12,8 @@ export class SidebarService {
   menu: any[] = [{
 
     submenu: [
-      { titulo: 'Prestamos', url: 'cpu',icono:'nav-icon fa-solid fa-right-left',user:'ROLE_USER' },
-      { titulo: 'Devoluciones', url: 'users',icono:'nav-icon fa-solid fa-arrow-rotate-left', user:'ROLE_ADMIN'},
+      { titulo: 'Prestamos', url: 'borrow',icono:'nav-icon fa-solid fa-right-left',user:'ROLE_USER' },
+      { titulo: 'Solicitudes', url: 'request',icono:'nav-icon fa-regular fa-bell', user:'ROLE_ADMIN'},
       { titulo: 'Libros', url: 'register',icono:'nav-icon fa-solid fa-solid fa-book' ,user:'ROLE_USER'},
       { titulo: 'Usuarios', url: 'users',icono:'nav-icon fa-solid fa-solid fa-users', user:'ROLE_ADMIN'},
     
